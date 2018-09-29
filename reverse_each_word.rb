@@ -1,6 +1,6 @@
 def reverse_each_word(arg)
-  arg.collect do |arg|
-    arg.split(" ")
+  newArray = arg.split(" ")
+  newArray.collect do |arg|
     arg.reverse!
   end
   newArray.join(" ")
